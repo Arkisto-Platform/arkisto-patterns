@@ -3,7 +3,7 @@
 Arkisto Design Patterns
 
 ---
-##*Seafood Safety Group Arkisto Example*
+##Seafood Safety Group Arkisto Example
 ---
 Directories:
 * RO-Crate Data: A directory to store explanations and examples of RO-Crates and the data contained in them.
