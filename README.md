@@ -3,8 +3,8 @@
 Arkisto Design Patterns
 
 ---
+
 ## Seafood Safety Group Arkisto Example
----
 
 #### People
 The Seafood Safety Group is led by [Shauna Murray](mailto:Shauna.Murray@uts.edu.au), and comprised of:
