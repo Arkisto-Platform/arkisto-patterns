@@ -26,6 +26,8 @@ To get the data either we need to interrogate a database using SQL queries, REST
 
 - Examples ***???***
 
+This collection required raw data samples becuase... ... ...[Seafood Collection](./examples/seafood)
+
 There will be cases for which we do not currently have acces to raw data. Depending on the use case we would need to generate 
 
 - Use x code to generate an raw data
