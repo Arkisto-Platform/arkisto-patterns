@@ -47,8 +47,10 @@ Directories:
    Data sample provided by seafood group
 * templates:
    python templates for generating datasets
-* sample-config: Stores configuration files for ONI
+* sample-config: Stores configuration files for ONI (should be copied into oni-express folder)
 
-* Folders to be created:   
-   sensor-data: Stores example RO-Crates
-   ocfl-demos/ocfl: Stores the generated OCFL repository
+Directories to be created:   
+* sensor-data:
+   Stores example RO-Crates
+* ocfl-demos/ocfl:
+   Stores the generated OCFL repository
