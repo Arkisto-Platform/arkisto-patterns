@@ -27,9 +27,10 @@ node ro-crate-deposit.js --repo=fake_ocfl --name seafood *
 ```
 in the same directory to create an ocfl repo called 'fake_ocfl' which contains all of those RO-Crates and data.
 
-
+---
 
 Directories:
-* RO-Crate Data: A directory to store explanations and examples of RO-Crates and the data contained in them.
-    - examples: A directory to store example RO-Crates in.
-    - generated data: A directory to store code which generates RO-Crates (and the data contained in them) for testing.
+* RO-Crate Data: Stores explanations and examples of RO-Crates as well as the data contained in them.
+    - examples: Stores example RO-Crates 
+    - generated data: Stores code which generates RO-Crates (and the data contained in them) for testing.
+* Configuration: Stores configuration files for ONI
