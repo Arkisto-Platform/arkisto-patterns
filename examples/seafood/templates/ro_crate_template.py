@@ -1,4 +1,4 @@
-{
+RO_CRATE_TEMPLATE ="""{
   "@context": [
     "https://researchobject.github.io/ro-crate/1.0/context.jsonld",
     {
@@ -20,16 +20,17 @@
       "contactPoint": {
         "@id": "Penelope.Ajani@uts.edu.au"
       },
-      "contentLocation": {
-        "@id": "https://sws.geonames.org/8210175/"
-      },
       "datePublished": "2020-07-15",
+      "month": "August",
       "description": "A collection of salinity data readings from Camden Haven for June 2020",
       "hasPart": [
         {
           "@id": "Data/"
         }
       ],
+      "contentLocation": {
+        "@id": "https://sws.geonames.org/8210175/"
+      },
       "name": "NSW Estuary Salinity Data - Camden Haven - June 2020"
     },
     {
@@ -37,13 +38,13 @@
       "@type": "Dataset",
       "description": "Sensor data from Camden Haven",
       "hasPart": {
-        "@id": "Data/out_NSW_CH_01_June2020_July2020.csv"
+        "@id": "Data/out_NSW_CH_01_June2020.csv"
       },
       "name": "Data",
       "temporalCoverage": "2020-06"
     },
     {
-      "@id": "Data/out_NSW_CH_01_June2020_July2020.csv",
+      "@id": "Data/out_NSW_CH_01_June2020.csv",
       "@type": "File",
       "description": "The raw sensor data from Camden Haven - could include anomalies",
       "name": "Raw Data - June 2020"
@@ -114,4 +115,4 @@
       "identifier": "ro-crate-metadata.json"
     }
   ]
-}
+}"""

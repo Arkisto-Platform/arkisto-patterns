@@ -2,8 +2,8 @@
 
 Get latest version of oni-express
 
-```shell script 
-git clone https://github.com/UTS-eResearch/oni-express.git
+```shell script
+git clone -b release-1.2.0-rc1 https://github.com/UTS-eResearch/oni-express.git
 ```
 
 This will generate a folder oni-express
@@ -11,7 +11,7 @@ This will generate a folder oni-express
 Get the latest version of oni-indexer
 
 ```shell script
-git clone https://github.com/UTS-eResearch/oni-indexer.git
+git clone -b release-1.2.0-rc1 https://github.com/UTS-eResearch/oni-indexer.git
 ```
 
 ```
@@ -27,10 +27,22 @@ Change directories to oni-express. This will be the main working directory of an
 cd oni-express
 ```
 
-Edit your config files 
+Copy sample config files
+```shell script
+cp -f ../sample-config/* config/
+```
 
+Move your OCFL repo
+```shell script
+mv ../ocfl-demos/ocfl .
+```
 Run docker-compose
 
 ```shell script
 docker-compose up
+```
+
+Stop Docker
+```shell script
+docker-compose stop
 ```
