@@ -31,7 +31,7 @@ in the same directory to create an ocfl repo called 'ocfl' which contains all of
 
 Next set up ONI
 
-See [](./ONI.md)
+See [ONI.md](./ONI.md)
 
 ---
 
