@@ -1,4 +1,4 @@
-## Seafood Safety Group Arkisto OCFL
+## Seafood Safety Group Arkisto
 
 #### People
 The Seafood Safety Group is led by [Shauna Murray](mailto:Shauna.Murray@uts.edu.au), and comprised of:
