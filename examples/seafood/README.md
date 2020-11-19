@@ -35,7 +35,10 @@ node ro-crate-deposit.js --repo=ocfl --name seafood ../sensor-data/*
 
 in the same directory to create an ocfl repo called 'ocfl' which contains all of those RO-Crates and data.
 
-Next set up ONI. See [ONI.md](./ONI.md) file
+Next set up ONI
+
+See [ONI.md](./ONI.md)
+
 ---
 
 Directories:
