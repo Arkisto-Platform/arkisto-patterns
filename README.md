@@ -23,31 +23,21 @@ Windows users are recommended to use a Linux VM with docker
 ## How to generate or get raw Data
 
 To get the data either we need to interrogate a database using SQL queries, REST APIs or scraping tools.
-
-- Examples ***???***
-
-This collection required raw data samples becuase... ... ...[Seafood Collection](./examples/seafood)
-
-There will be cases for which we do not currently have acces to raw data. Depending on the use case we would need to generate 
-
-- Use x code to generate an raw data
+There will be cases for which we do not currently have acces to raw data. Depending on the use case we would need to generate.
 
 ## How to generate Ro-Crates
 
-- Using XLRO to define the metadata and use X code to generate Ro-Crates
+Using XLRO to define the metadata and use X code to generate Ro-Crates
 
 ## How generate an OCFL
 
-- Turn your ro-crates into an OCFL repositoruy to be used within ONI. 
-
-Use X code to generate OCFL
+Turn your ro-crates into an OCFL repositoruy to be used within ONI.
 
 ## How to spin up an ONI
 
 ONI is your main search engine site where the data is going to be accesible by generating a searchable site
 
-See [ONI.md](./ONI.md)
 
+## Examples
 
-
-
+- [Seafood Collection](./examples/seafood)
