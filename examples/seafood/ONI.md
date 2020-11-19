@@ -1,5 +1,12 @@
 ## How to spin up an ONI
 
+Make sure you're in the desired folder for this example:
+e.g:
+```shell script
+cd <repo filepath>/examples/seafood
+```
+
+
 Get latest version of oni-express
 
 ```shell script
