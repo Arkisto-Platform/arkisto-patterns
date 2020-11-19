@@ -1,36 +1,51 @@
-# arkisto-patterns
 
-Arkisto Design Patterns
+# Arkisto Design Patterns
 
----
+## Audience
 
-## Seafood Safety Group Arkisto Example
+This document is for members of the UTS eResearch team and anyone that would like to set up an Arkisto Site.
 
-#### People
-The Seafood Safety Group is led by [Shauna Murray](mailto:Shauna.Murray@uts.edu.au), and comprised of:
-* [Penny Ajani](mailto:penelope.ajani@uts.edu.au): Does mathematical modelling from the data and has been primary contact for getting example data and discussing data pipeline
-* [Hazel Farrell](mailto:hazel.farrell@dpi.nsw.gov.au): Partner from the NSW Department of Primary Industries who  helps clean and distribute the data
-    
+## About
 
-#### Data
+This document covers:
 
-The Seafood Safety Group has sensors (provided by *The Yield*) located in various estuarys around NSW, collecting data about the salinity, temperature, pressure and water depth at regular intervals.
-This data is uploaded from the sensors to an Azure database and then downloaded in monthly csv files.
-It is also currently avaialble for consumers via a live website.
+- How to generate or get raw Data 
+- How to generate [Ro-Crates](https://www.researchobject.org/ro-crate/) using a JavaScript implementation [ro-crate-js](https://github.com/UTS-eResearch/ro-crate-js)
+- How generate an [OCFL](https://ocfl.io) repository using a JavaScript implementation [ocfl-js](https://github.com/UTS-eResearch/ocfl-js)
+- How to spin up an [ONI](https://github.com/UTS-eResearch/oni) 
+- How to configure dynamic HTML pages ***Question for PT***
+- How to create an RO-Crate export
 
-For testing purposes, a simple script has been written which generates sample data for each estuary and month from 2010-2020.
-It's contained in the generated data directory and when run with `python3 test_folder_generation.py` creates sub-folders in the current directory containing both simulated raw data and the associated ro-crate-metadata.json file.
+The instructions on managing the site locally cover Linux and OS X using docker. 
+Windows users are recommended to use a Linux VM with docker
 
-After that's created, you can use the ro-crate-deposit script from [OCFL Demos](https://code.research.uts.edu.au/eresearch/ocfl-demos):
-```bash
-node ro-crate-deposit.js --repo=fake_ocfl --name seafood *
-```
-in the same directory to create an ocfl repo called 'fake_ocfl' which contains all of those RO-Crates and data.
 
----
+## How to generate or get raw Data
 
-Directories:
-* RO-Crate Data: Stores explanations and examples of RO-Crates as well as the data contained in them.
-    - examples: Stores example RO-Crates 
-    - generated data: Stores code which generates RO-Crates (and the data contained in them) for testing.
-* Configuration: Stores configuration files for ONI
+To get the data either we need to interrogate a database using SQL queries, REST APIs or scraping tools.
+
+- Examples ***???***
+
+There will be cases for which we do not currently have acces to raw data. Depending on the use case we would need to generate 
+
+- Use x code to generate an raw data
+
+## How to generate Ro-Crates
+
+- Using XLRO to define the metadata and use X code to generate Ro-Crates
+
+## How generate an OCFL
+
+- Turn your ro-crates into an OCFL repositoruy to be used within ONI. 
+
+Use X code to generate OCFL
+
+## How to spin up an ONI
+
+ONI is your main search engine site where the data is going to be accesible by generating a searchable site
+
+See [ONI.md](./ONI.md)
+
+
+
+
