@@ -3,7 +3,7 @@
 Get latest version of oni-express
 
 ```shell script
-git clone -b release-1.2.0-rc1 https://github.com/UTS-eResearch/oni-express.git
+git clone -b release-1.2.0.rc1 https://github.com/UTS-eResearch/oni-express.git
 ```
 
 This will generate a folder oni-express
@@ -11,7 +11,7 @@ This will generate a folder oni-express
 Get the latest version of oni-indexer
 
 ```shell script
-git clone -b release-1.2.0-rc1 https://github.com/UTS-eResearch/oni-indexer.git
+git clone -b release-1.2.0.rc1 https://github.com/UTS-eResearch/oni-indexer.git
 ```
 
 ```
