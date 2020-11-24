@@ -1,9 +1,9 @@
 ## Seafood Safety Group Arkisto
 
 #### People
-The Seafood Safety Group is led by [Shauna Murray](mailto:Shauna.Murray@uts.edu.au), and comprised of:
-* [Penny Ajani](mailto:penelope.ajani@uts.edu.au): Does mathematical modelling from the data and has been primary contact for getting example data and discussing data pipeline
-* [Hazel Farrell](mailto:hazel.farrell@dpi.nsw.gov.au): Partner from the NSW Department of Primary Industries who  helps clean and distribute the data
+The Seafood Safety Group is led by Shauna Murray, and comprised of:
+* Penny Ajani: Does mathematical modelling from the data, primary contact for getting example data and discussing data pipeline
+* Hazel Farrell: Partner from the NSW Department of Primary Industries who helps clean and distribute the data
 
 
 #### Data
