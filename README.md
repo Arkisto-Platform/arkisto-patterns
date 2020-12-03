@@ -22,7 +22,7 @@ Windows users are recommended to use a Linux VM with docker
 ## How to generate or get raw Data
 
 To get the data either we need to interrogate a database using SQL queries, REST APIs or scraping tools.
-There will be cases for which we do not currently have acces to raw data. Depending on the use case we would need to generate.
+There will be cases for which we do not currently have access to raw data. Depending on the use case we would need to generate.
 
 ## How to generate Ro-Crates
 
@@ -34,9 +34,13 @@ Turn your ro-crates into an OCFL repository to be used within ONI.
 
 ## How to spin up an ONI
 
-ONI is your main search engine site where the data is going to be accesible by generating a searchable site
+ONI is your main search engine site where the data is going to be accessible by generating a searchable site
 
 
 ## Examples
 
-- See [Seafood Collection](./examples/seafood) README.md's to find instructions on how to start an Arkisto
+- See [Seafood Collection](https://github.com/arkisto-platform/seafood-collection) README.md's to find instructions on how to start an Arkisto
+
+The Seafood Collection pattern is about generating data set and then create an Arkisto website
+
+- See [Criminal Characters](https://github.com/arkisto-platform/criminal-characters) README.md's to find instructions on how to start an Arkisto
